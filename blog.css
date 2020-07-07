@@ -159,6 +159,12 @@ ul.timeline>li:before {
   width: 100%;
   height: 200px;
 }
+
+.event-picture{
+  height: 250px;
+    object-fit: cover;
+}
+
 .card-deck{
   margin-bottom: 30px;
 }
