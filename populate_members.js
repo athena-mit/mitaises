@@ -1,14 +1,25 @@
 window.onload = () => {
-    var board = document.getElementById("board");  
-    console.log(members_data.board.length)
-    for(r = 0; r < Math.ceil(members_data.board.length/4); r++){
+    populate_section('board');
+    populate_section('members');
+    populate_section('advisors');
+}
+
+function populate_section(section_id){
+    var section = document.getElementById(section_id);  
+    for(r = 0; r < Math.ceil(members_data[section_id].length/4); r++){
         var card_deck = document.createElement("div"); 
         card_deck.setAttribute('class', 'card-deck');
-        for(c = 0; c < 4 && 4*r + c < members_data.board.length; c++){
-            var card = make_card(members_data.board[4*r+c])
+        for(c = 0; c < 4; c++){
+            if(4*r + c < members_data[section_id].length){
+                var card = make_card(members_data[section_id][4*r+c])
+            }
+            else{ //to get good spacing, just make invisible cards to pad the row
+                var card = make_card(members_data[section_id][members_data[section_id].length - 1])
+                card.setAttribute('style', 'opacity:0')
+            }
             card_deck.appendChild(card);
         }
-        board.appendChild(card_deck);
+        section.appendChild(card_deck);
     }
 }
 
@@ -27,15 +38,19 @@ function make_card(member_entry){
     //         </p>
     //     </div>
     // </div>
-
+    console.log(member_entry);
 
     var card = document.createElement("div"); 
     card.setAttribute("class", "card");
 
+    if(!('img_link' in member_entry)){
+        member_entry.img_link = "assets/mitaises_members_logo.png"
+    }
     var img = document.createElement("img"); 
     img.setAttribute("src", member_entry.img_link);
     img.setAttribute("class", "card-img-top member-card");
     card.appendChild(img);
+
 
     var body = document.createElement("div"); 
     body.setAttribute("class", "card-body");
@@ -48,9 +63,9 @@ function make_card(member_entry){
 
     if("position" in member_entry){
         var position = document.createElement("p");
-        position.setAttribute("class", "card-text text-muted");
+        position.setAttribute("class", "card-text  text-primary");
         position.innerText = member_entry.position;
-        body.appendChild(title);
+        body.appendChild(position);
     }
 
     var bio = document.createElement("p");
