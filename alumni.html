@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<!-- https://bootsnipp.com/snippets/xrKXW -->
 
 <head>
     <meta charset="utf-8">
@@ -7,13 +8,12 @@
     <meta name="description" content="">
     <title>MIT AISES</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/b2e6d5e0a6.js"></script>
 
-    <script src="data/members.js"></script>
-    <script src="populate_members.js"></script>
+    <script src="data/alumni.js"></script>
+    <script src="populate_timeline.js"></script>
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -30,23 +30,45 @@
             }
         }
 
-        /* .card {
-            max-width: 20%;
-        } */
-
-        .member-card {
-            object-fit: cover;
-            width: 100%;
-            height: 200px;
+        ul.timeline {
+            list-style-type: none;
+            position: relative;
         }
-        .card-deck{
-            margin-bottom: 30px;
+
+        ul.timeline:before {
+            content: ' ';
+            background: #d4d9df;
+            display: inline-block;
+            position: absolute;
+            left: 29px;
+            width: 2px;
+            height: 100%;
+            z-index: 400;
+        }
+
+        ul.timeline>li {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        ul.timeline>li:before {
+            content: ' ';
+            background: white;
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            border: 3px solid #22c0e8;
+            left: 20px;
+            width: 20px;
+            height: 20px;
+            z-index: 400;
         }
     </style>
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -77,20 +99,16 @@
             </nav>
         </div>
 
-        <h3 class="pb-4 mb-4  border-bottom" id="events">
-            Executive Board
-        </h3>
-        <div id='board'></div>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-10 offset-md-3">
+                    <h4>Our Alumni </h4>
+                    <ul class="timeline" id='timeline'>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        <h3 class="pb-4 mb-4 mt-4  border-bottom">
-            AISES Members
-        </h3>
-        <div id='members'></div>
-
-        <h3 class="pb-4 mt-4  border-bottom">
-            Advisors
-        </h3>
-        <div id='advisors'></div>
     </div>
 
 
