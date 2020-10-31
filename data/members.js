@@ -130,11 +130,5 @@ var members_data = {
                "Director of the Office of Minority Education", 
             ]
         },
-        {
-            "name": "Sophia Cisneros",
-            "bio": ["Mentor and Advocate for MIT Native students",
-               "Laboratory for Nuclear Science Affiliate", 
-            ]
-        },
     ],
 }
