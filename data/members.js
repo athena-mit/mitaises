@@ -2,7 +2,7 @@ var members_data = {
     "board": [
         {
             "name": "Luke Bastian",
-            "img_link": "assets/lukebastian.jpg",
+            "img_link": "assets/Spring2020/lukebastian.jpg",
             "position": "President",
             "bio": ["Course: 1",
                " Year: 2021", 
@@ -12,52 +12,121 @@ var members_data = {
             ]
         },
         {
-            "name": "Kristy Carpenter",
-            "img_link": "assets/kristycarpenter.jpg",
-            "position": "Vice-President",
-            "bio": ["Course: 6-7",
-               "Year: 2020", 
-            "Hometown: Woodinville, WA",
-            'Tribal Affiliation: Alutiiq'
+            "name": "Jade Ishii",
+            "img_link": "assets/Spring2020/JadeIshii.jpg",
+            "position": "Vice President",
+            "bio": ["Course: 1",
+               "Year: 2022", 
+            "Hometown: Kāneʻohe, HI",
+            "Tribal Affiliation: Native Hawaiian",
+            "Hobbies: I like to dance and nap"
             ]
         },
         {
-            "name": "Ki Fredeen",
-            "img_link": "assets/kifredeen.jpg",
-            "position": "Treasurer",
-            "bio": ["Course: 6-3", 'Hometown: Anchorage, AK']
+            "name": "Joy Domingo-Kameʻenui",
+            "img_link": "assets/Spring2020/JoyDomingo-Kameenui.jpg",
+            "position": "Treasurer & Social Chair",
+            "bio": ["Course: 1",
+               "Year: 2024", 
+            "Hometown: Maunalua, HI",
+            "Tribal Affiliation: Native Hawaiian",
+            "Hobbies: Tennis, Hip Hop"
+            ]
         },
         {
-            "name": "James McGaa",
-            "img_link": "assets/jamesmcgaa.jpeg",
+            "name": "Sabrina Hare",
+            "img_link": "assets/Spring2020/SabrinaHare.jpg",
+            "position": "Social Media Czar",
+            "bio": ["Course: 2A-Product Design",
+               "Year: 2023", 
+            "Hometown: Barcelona, Spain",
+            "Tribal Affiliation: Ojibwe",
+            "Hobbies: I learned how to fly a plane before I could drive!"
+            ]
+        },
+        {
+            "name": "Athena Sánchez",
+            "img_link": "assets/Spring2020/AthenaSanchez.jpg",
             "position": "Tech Chair",
-            "bio": ["Course: 6-3",
-               "Year: 2020", 
-            "Hometown: Minneapolis, MN"
+            "bio": ["Course: 6",
+               "Year: 2023", 
+            "Hometown: San Antonio, TX",
+            "Tribal Affiliation: Mixed Indignous roots in Mexico & Texas",
+            "Hobbies: I like painting, writing, baking, and watching lots of TV"
             ]
-        },
+        }
     ],
 
 
     "members": [
         {
-            "name": "Ilaisaane Summers",
-            "img_link": "assets/Ilaisaane_Summers.jpg",
-            "bio": ["Course: 6-3",
-            "Year: 2020", 
-         "Hometown: Chicago",
-         'Tribal Affiliation: Samoan',
-         'Hobbies: Creative writing and Flying with her pilot’s license'
-         ]
+            "name": "Ryan Conti",
+            "img_link": "assets/Spring2020/RyanConti.jpeg",
+            "bio": ["Course: 18/6-3",
+               "Year: 2023", 
+            "Hometown: Plano, TX",
+            "Tribal Affiliation: Chickasaw Nation",
+            "Hobbies: I like reading and writing poetry/fiction, soccer freestyling, and playing quiz bowl!"
+            ]
         },
         {
-            "name": "Sade Nabahe",
-            "img_link": "assets/Sade_Nabahe.jpg",
-            "bio": ["Masters in Technology and Policy",
-               "Hometown: Tucson, Arizona", 
-            "Tribal Affiliation: Shoshone-Paiute",
-            'Event Co-director for the MIT Clean Energy Prize',
+            "name": "Annalysse (Temędíkwas) Gronda",
+            "img_link": "assets/Spring2020/AnnalysseGronda.jpg",
+            "bio": ["Course: Undeclared (4 or 16)",
+               "Year: 2024", 
+            "Hometown: Traverse City, Michigan",
+            "Tribal Affiliation: Wyandot of Anderdon Nation",
+            "Hobbies: Drawing, needlework, birdwatching, exploring"
             ]
+        },
+        {
+            "name": "Bianca Hanly",
+            "img_link": "assets/Spring2020/BiancaHanly.JPG",
+            "bio": ["Course: 6-1",
+               "Year: 2024", 
+            "Hometown: Scottsdale, AZ",
+            "Tribal Affiliation: Chickasaw"
+            ]
+        },
+        {
+            "name": "Alvin Harvey",
+            "img_link": "assets/Spring2020/AlvinHarvey.jpg",
+            "bio": ["Course: Aeronautics and Astronautics)",
+               "Year: Graduate Student", 
+            "Hometown: Aztec, New Mexico",
+            "Tribal Affiliation: Diné",
+            "Private Pilot's License"
+            ]
+        },
+        {
+            "name": "Nicole McGaa",
+            "img_link": "assets/Spring2020/NicoleMcGaa.png",
+            "bio": ["Course: 16",
+               "Year: 2024", 
+            "Hometown: Pittsburgh",
+            "Tribal Affiliation: Oglala Sioux",
+            "Hobbies: An EMT with MIT EMS"
+            ]
+        },
+        {
+            "name": "Annauk Olin",
+            "img_link": "assets/Spring2020/Annauk_Olin.png",
+            "bio": ["Course: 24",
+               "First year graduate student", 
+            "Hometown: Anchorage, AK",
+            'Tribal Affiliation: Iñupiaq',
+            'MIT Grad Blog'
+            ]
+        },
+        {
+            "name": "Ilaisaane Summers",
+            "img_link": "assets/Spring2020/IlaisaaneSummers.jpg",
+            "bio": ["Course: 6-2",
+            "Year: 2023", 
+            "Hometown: Chicago",
+            'Tribal Affiliation: Samoan',
+            'Hobbies: Proud pilot AND fanfiction author.'
+         ]
         },
         {
             "name": "Mathew Suazo",
@@ -70,45 +139,14 @@ var members_data = {
             ]
         },
         {
-            "name": "Jade Ishii",
-            "img_link": "assets/Jade_Ishii.jpg",
-            "bio": ["Course: 1",
-               "Year: 2022", 
-            "Hometown: Kāneʻohe, HI",
-            'Tribal Affiliation: Native Hawaiian'
+            "name": "Julie Washek",
+            "img_link": "assets/Spring2020/JulieWashek.jpg",
+            "bio": ["Course: Research Technician in Feng Lab",
+            "Hometown: Dover, MA",
+            "Tribal Affiliation: NULHEGAN ABENAKI TRIBE AT NULHEGAN~MEMPHREMAGOG",
+            "Hobbies: My hobbies include powerlifting, singing, and drawing. I also own two bunnies named Minnie and Moo; they're quite adorable! "
             ]
-        },
-        {
-            "name": "Annauk Olin",
-            "img_link": "assets/Annauk_Olin.png",
-            "bio": ["Course: 24",
-               "First year graduate student", 
-            "Hometown: Anchorage, AK",
-            'Tribal Affiliation: Iñupiaq',
-            'MIT Grad Blog'
-            ]
-        },
-        {
-            "name": "Alvin Harvey",
-            "img_link": "assets/Alvin_Harvey.jpg",
-            "bio": ["Course: 16",
-               "Second year graduate student", 
-            "Hometown: Aztec, New Mexico",
-            'Tribal Affiliation: Navajo',
-            'Pilot, MIT Graduate Diversity Ambassador'
-            ]
-        },
-
-        {
-            "name": "Tracy Kelley",
-            "img_link": "assets/Tracy_Kelley.png",
-            "bio": ["Course: 24",
-               "Year: 2018", 
-            "Hometown: Mashpee, MA",
-            'Tribal Affiliation: Mashpee Wampanoag',
-            'Indigenous Language Initiative'
-            ]
-        },
+        }
     ],
 
 

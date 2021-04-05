@@ -1,5 +1,39 @@
 // the year entries dont have to be sorted in any way
 var alumni_data = {
+    2019:[
+        {
+            "name": "Kristy Carpenter",
+            //"img_link": "assets/kristycarpenter.jpg",
+            "bio": ["Course 6-7", "Woodinville, WA", 'Alutiiq']
+        },
+        {
+            "name": "Ki Fredeen",
+            //"img_link": "assets/kifredeen.jpg",
+            "bio": ["Course 6-3", 'Anchorage, AK']
+        },
+        {
+            "name": "James McGaa",
+            //"img_link": "assets/jamesmcgaa.jpeg",
+            "bio": ["Course 6-3", "Minneapolis, MN"
+            ]
+        },
+        {
+            "name": "Sade Nabahe",
+            //"img_link": "assets/Sade_Nabahe.jpg",
+            "bio": ["Masters in Technology and Policy",
+               "Tucson, Arizona", "Shoshone-Paiute"
+            ]
+        }
+    ],
+    2018: [
+        {
+            "name": "Tracy Kelley",
+            //"img_link": "assets/Tracy_Kelley.png",
+            "bio": ["Course 24",
+            "Hometown: Mashpee, MA",'Mashpee Wampanoag'
+            ]
+        }
+    ],
     2016: [
         {
             name: 'Aaron Ashley',
