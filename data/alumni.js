@@ -1,15 +1,10 @@
 // the year entries dont have to be sorted in any way
 var alumni_data = {
-    2019:[
+    2020:[
         {
             "name": "Kristy Carpenter",
             //"img_link": "assets/kristycarpenter.jpg",
             "bio": ["Course 6-7", "Woodinville, WA", 'Alutiiq']
-        },
-        {
-            "name": "Ki Fredeen",
-            //"img_link": "assets/kifredeen.jpg",
-            "bio": ["Course 6-3", 'Anchorage, AK']
         },
         {
             "name": "James McGaa",

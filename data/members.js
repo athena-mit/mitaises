@@ -70,6 +70,11 @@ var members_data = {
             ]
         },
         {
+            "name": "Ki Fredeen",
+            "img_link": "assets/kifredeen.jpg",
+            "bio": ["Course: 6-3", 'Hometown: Anchorage, AK']
+        },
+        {
             "name": "Annalysse (Temędíkwas) Gronda",
             "img_link": "assets/Spring2021/AnnalysseGronda.jpg",
             "bio": ["Course: Undeclared (4 or 16)",
