@@ -1,20 +1,9 @@
 var members_data = {
     "board": [
         {
-            "name": "Luke Bastian",
-            "img_link": "assets/Spring2021/lukebastian.jpg",
-            "position": "President",
-            "bio": ["Course: 1",
-               " Year: 2021", 
-            "Hometown: Chandler, Arizona",
-            'Tribal Affiliation: Navajo',
-            'Hobbies: Running, Soccer'
-            ]
-        },
-        {
             "name": "Jade Ishii",
             "img_link": "assets/Spring2021/JadeIshii.jpg",
-            "position": "Vice President",
+            "position": "President",
             "bio": ["Course: 1",
                "Year: 2022", 
             "Hometown: Kāneʻohe, HI",
@@ -59,6 +48,16 @@ var members_data = {
 
 
     "members": [
+        {
+            "name": "Luke Bastian",
+            "img_link": "assets/Spring2021/lukebastian.jpg",
+            "bio": ["Course: 1",
+               " Year: 2021", 
+            "Hometown: Chandler, Arizona",
+            'Tribal Affiliation: Navajo',
+            'Hobbies: Running, Soccer'
+            ]
+        },
         {
             "name": "Ryan Conti",
             "img_link": "assets/Spring2021/RyanConti.jpeg",
