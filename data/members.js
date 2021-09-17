@@ -41,7 +41,7 @@ var members_data = {
                "Year: 2023", 
             "Hometown: San Antonio, TX",
             "Tribal Affiliation: Mixed Indignous roots in Mexico & Texas",
-            "Hobbies: I like painting, writing, baking, and watching lots of TV"
+            "Hobbies: I like painting, writing, and watching lots of TV"
             ]
         }
     ],
