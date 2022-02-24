@@ -1,5 +1,27 @@
 // the year entries dont have to be sorted in any way
 var alumni_data = {
+    2021: [
+        {
+            "name": "Luke Bastian",
+            //"img_link": "assets/Spring2021/lukebastian.jpg",
+            "bio": ["Course: 1", "Chandler, Arizona",'Navajo']
+        },
+        {
+            "name": "Ki Fredeen",
+            //"img_link": "assets/kifredeen.jpg",
+            "bio": ["Course: 6-3", 'Anchorage, AK']
+        },
+        {
+            "name": "Annauk Olin",
+            //"img_link": "assets/Spring2021/Annauk_Olin.png",
+            "bio": ["Course: 24", "Anchorage, AK", 'Iñupiaq']
+        },
+        {
+            "name": "Mathew Suazo",
+            //"img_link": "assets/Mathew_Suazo.png",
+            "bio": ["Course: 3", "Dayton, OH", 'Taos Pueblo']
+        },
+    ],
     2020:[
         {
             "name": "Kristy Carpenter",

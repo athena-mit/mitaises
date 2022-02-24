@@ -49,16 +49,6 @@ var members_data = {
 
     "members": [
         {
-            "name": "Luke Bastian",
-            "img_link": "assets/Spring2021/lukebastian.jpg",
-            "bio": ["Course: 1",
-               " Year: 2021", 
-            "Hometown: Chandler, Arizona",
-            'Tribal Affiliation: Navajo',
-            'Hobbies: Running, Soccer'
-            ]
-        },
-        {
             "name": "Ryan Conti",
             "img_link": "assets/Spring2021/RyanConti.jpeg",
             "bio": ["Course: 18/6-3",
@@ -67,11 +57,6 @@ var members_data = {
             "Tribal Affiliation: Chickasaw Nation",
             "Hobbies: I like reading and writing poetry/fiction, soccer freestyling, and playing quiz bowl!"
             ]
-        },
-        {
-            "name": "Ki Fredeen",
-            "img_link": "assets/kifredeen.jpg",
-            "bio": ["Course: 6-3", 'Hometown: Anchorage, AK']
         },
         {
             "name": "Annalysse (Temędíkwas) Gronda",
@@ -113,16 +98,6 @@ var members_data = {
             ]
         },
         {
-            "name": "Annauk Olin",
-            "img_link": "assets/Spring2021/Annauk_Olin.png",
-            "bio": ["Course: 24",
-               "First year graduate student", 
-            "Hometown: Anchorage, AK",
-            'Tribal Affiliation: Iñupiaq',
-            'MIT Grad Blog'
-            ]
-        },
-        {
             "name": "Ilaisaane Summers",
             "img_link": "assets/Spring2021/IlaisaaneSummers.jpg",
             "bio": ["Course: 6-2",
@@ -131,16 +106,6 @@ var members_data = {
             'Tribal Affiliation: Samoan',
             'Hobbies: Proud pilot AND fanfiction author.'
          ]
-        },
-        {
-            "name": "Mathew Suazo",
-            "img_link": "assets/Mathew_Suazo.png",
-            "bio": ["Course: 3",
-               "Year: 2021", 
-            "Hometown: Dayton, OH",
-            'Tribal Affiliation: Taos Pueblo',
-            'MITSFS, ESP'
-            ]
         },
         {
             "name": "Julie Washek",
