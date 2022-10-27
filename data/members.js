@@ -1,14 +1,25 @@
 var members_data = {
     "board": [
         {
-            "name": "Jade Ishii",
-            "img_link": "assets/Spring2021/JadeIshii.jpg",
+            "name": "Trinity Wahiya Manuelito",
+            "img_link": "assets/Fall2022/trinity-headshot.jpg",
             "position": "President",
-            "bio": ["Course: 1",
-               "Year: 2022", 
-            "Hometown: Kāneʻohe, HI",
-            "Tribal Affiliation: Native Hawaiian",
-            "Hobbies: I like to dance and nap"
+            "bio": ["Course: 6-1",
+               "Year: 2023", 
+            "Hometown: Goodyear, AZ",
+            "Tribal Affiliation: Navajo",
+            "Hobbies:I like to run, nap, and watch TV shows. Also, I love dogs. "
+            ]
+        },
+        {
+            "name": "Ryan Conti",
+            "img_link": "assets/Spring2021/RyanConti.jpeg",
+            "position": "Vice President",
+            "bio": ["Course: 18/6-3",
+               "Year: 2023", 
+            "Hometown: Plano, TX",
+            "Tribal Affiliation: Chickasaw Nation",
+            "Hobbies: I like reading and writing poetry/fiction, soccer freestyling, and playing quiz bowl!"
             ]
         },
         {
@@ -20,17 +31,6 @@ var members_data = {
             "Hometown: Maunalua, HI",
             "Tribal Affiliation: Native Hawaiian",
             "Hobbies: Tennis, Hip Hop"
-            ]
-        },
-        {
-            "name": "Sabrina Hare",
-            "img_link": "assets/Spring2021/SabrinaHare.jpg",
-            "position": "Social Media Czar",
-            "bio": ["Course: 2A-Product Design",
-               "Year: 2023", 
-            "Hometown: Barcelona, Spain",
-            "Tribal Affiliation: Ojibwe",
-            "Hobbies: I learned how to fly a plane before I could drive!"
             ]
         },
         {
@@ -48,16 +48,6 @@ var members_data = {
 
 
     "members": [
-        {
-            "name": "Ryan Conti",
-            "img_link": "assets/Spring2021/RyanConti.jpeg",
-            "bio": ["Course: 18/6-3",
-               "Year: 2023", 
-            "Hometown: Plano, TX",
-            "Tribal Affiliation: Chickasaw Nation",
-            "Hobbies: I like reading and writing poetry/fiction, soccer freestyling, and playing quiz bowl!"
-            ]
-        },
         {
             "name": "Annalysse (Temędíkwas) Gronda",
             "img_link": "assets/Spring2021/AnnalysseGronda.jpg",
@@ -78,6 +68,17 @@ var members_data = {
             ]
         },
         {
+            "name": "Sabrina Hare",
+            "img_link": "assets/Spring2021/SabrinaHare.jpg",
+            "position": "Social Media Czar",
+            "bio": ["Course: 2A-Product Design",
+               "Year: 2023", 
+            "Hometown: Barcelona, Spain",
+            "Tribal Affiliation: Ojibwe",
+            "Hobbies: I learned how to fly a plane before I could drive!"
+            ]
+        },
+        {
             "name": "Alvin Harvey",
             "img_link": "assets/Spring2021/AlvinHarvey.jpg",
             "bio": ["Course: Aeronautics and Astronautics)",
@@ -85,6 +86,16 @@ var members_data = {
             "Hometown: Aztec, New Mexico",
             "Tribal Affiliation: Diné",
             "Private Pilot's License"
+            ]
+        },
+        {
+            "name": "Jade Ishii",
+            "img_link": "assets/Spring2021/JadeIshii.jpg",
+            "bio": ["Course: 1",
+               "Year: 2022", 
+            "Hometown: Kāneʻohe, HI",
+            "Tribal Affiliation: Native Hawaiian",
+            "Hobbies: I like to dance and nap"
             ]
         },
         {
