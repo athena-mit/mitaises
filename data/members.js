@@ -79,7 +79,6 @@ var members_data = {
         {
             "name": "Sabrina Hare",
             "img_link": "assets/Fall2022/SabrinaH.jpg",
-            "position": "Social Media Czar",
             "bio": ["Course: 2A-Product Design",
                "Year: 2023", 
             "Hometown: Barcelona, Spain",
