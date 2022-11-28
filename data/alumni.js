@@ -1,5 +1,13 @@
 // the year entries dont have to be sorted in any way
 var alumni_data = {
+    2022: [
+        {
+            "name": "Annalysse (Temędíkwas) Gronda",
+            //"img_link": "assets/Spring2021/AnnalysseGronda.jpg",
+            "bio": ["Course: Undeclared (4 or 16)",
+            "Traverse City, MI", "Wyandot of Anderdon Nation"]
+        },
+    ],
     2021: [
         {
             "name": "Luke Bastian",

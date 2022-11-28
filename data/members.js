@@ -2,7 +2,7 @@ var members_data = {
     "board": [
         {
             "name": "Trinity Wahiya Manuelito",
-            "img_link": "assets/Fall2022/trinity-headshot.jpg",
+            "img_link": "assets/Fall2022/trinity.jpg",
             "position": "President",
             "bio": ["Course: 6-1",
                "Year: 2023", 
@@ -24,13 +24,23 @@ var members_data = {
         },
         {
             "name": "Joy Domingo-Kameʻenui",
-            "img_link": "assets/Spring2021/JoyDomingo-Kameenui.jpg",
-            "position": "Treasurer & Social Chair",
+            "img_link": "assets/Fall2022/JoyDomingo-Kameenui.jpg",
+            "position": "Treasurer",
             "bio": ["Course: 1",
                "Year: 2024", 
-            "Hometown: Maunalua, HI",
+            "Hometown: Maunalua / Lānaʻi City, HI",
             "Tribal Affiliation: Native Hawaiian",
-            "Hobbies: Tennis, Hip Hop"
+            "Hobbies: I like to play/watch tennis, dance hip hop, and sing/rap Hawaiian songs"
+            ]
+        },
+        {
+            "name": "Frankie Schulte",
+            "img_link": "assets/Fall2022/FranklinJSchulte.jpg",
+            "position": "Social Media Chair",
+            "bio": ["Course: 6-3 and 4B",
+                "Hometown: Huntington Beach, CA",
+                "Tribal Affiliation: Huntington Beach, CA",
+                "Hobbies: I enjoy photography, skating, playing games, and making! :)"
             ]
         },
         {
@@ -49,32 +59,31 @@ var members_data = {
 
     "members": [
         {
-            "name": "Annalysse (Temędíkwas) Gronda",
-            "img_link": "assets/Spring2021/AnnalysseGronda.jpg",
-            "bio": ["Course: Undeclared (4 or 16)",
-               "Year: 2024", 
-            "Hometown: Traverse City, Michigan",
-            "Tribal Affiliation: Wyandot of Anderdon Nation",
-            "Hobbies: Drawing, needlework, birdwatching, exploring"
+            "name": "Faith Baca",
+            "img_link": "assets/Fall2022/FaithBaca.png",
+            "bio": ["Course: 24-2 and 18C",
+                "Hometown: Denver, CO",
+                "Tribal Affiliation: Ute heritage",
+                "Hobbies: I love reggaetón, I have a brother who's 18 years older than me, and I've never had a brain freeze in my life!"
             ]
         },
         {
             "name": "Bianca Hanly",
-            "img_link": "assets/Spring2021/BiancaHanly.JPG",
+            "img_link": "assets/Fall2022/BiancaHanly.jpeg",
             "bio": ["Course: 6-1",
                "Year: 2024", 
             "Hometown: Scottsdale, AZ",
-            "Tribal Affiliation: Chickasaw"
+            "Tribal Affiliation: Chickasaw Nation"
             ]
         },
         {
             "name": "Sabrina Hare",
-            "img_link": "assets/Spring2021/SabrinaHare.jpg",
+            "img_link": "assets/Spring2021/SabrinaH.jpg",
             "position": "Social Media Czar",
             "bio": ["Course: 2A-Product Design",
                "Year: 2023", 
             "Hometown: Barcelona, Spain",
-            "Tribal Affiliation: Ojibwe",
+            "Tribal Affiliation: Ojibwe- Leech Lake",
             "Hobbies: I learned how to fly a plane before I could drive!"
             ]
         },
@@ -106,6 +115,40 @@ var members_data = {
             "Hometown: Pittsburgh",
             "Tribal Affiliation: Oglala Sioux",
             "Hobbies: An EMT with MIT EMS"
+            ]
+        },
+        {
+            "name": "Peyton Meader",
+            "img_link": "assets/Fall2022/PeytonMeader.jpg",
+            "bio": ["Course: 10",
+                "Hometown: Bryant Pond, Maine",
+                "Tribal Affiliation: Passamaquoddy",
+                "Hobbies: Reading, crochet, camping and backpacking, hiking and snowshoeing, sitting around by the lake"
+            ]
+        },
+        {
+            "name": "Hank Patton",
+            "img_link": "assets/Fall2022/HankPatton.jpg",
+            "bio": ["Course: 15",
+                "Hometown: Houston, TX",
+                "Tribal Affiliation: Cherokee Nation",
+                "Hobbies: Board Games, Hiking, Camping, and Golfing"
+            ]
+        },
+        {
+            "name": "Jacqueline Paul",
+            "img_link": "assets/Fall2022/JacquelinePaul.jpg",
+            "bio": ["Course: 11",
+                "Hometown: Aotearoa New Zealand",
+                "Tribal Affiliation: Ngā Puhi, Ngāti Tūwharetoa, Ngāti Kahungunu ki Heretaunga",
+            ]
+        },
+        {
+            "name": "Hailey Polson",
+            "img_link": "assets/Fall2022/HaileyPolson.jpg",
+            "bio": ["Course: 16",
+                "Hometown: Claremore, Oklahoma",
+                "Tribal Affiliation: Cherokee Nation"
             ]
         },
         {
